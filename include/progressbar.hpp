@@ -90,7 +90,7 @@ inline progressbar::progressbar() :
     last_perc(0),
     do_show_bar(true),
     update_is_called(false),
-    done_char("#"),
+    done_char("█"),
     todo_char(" "),
     opening_bracket_char("["),
     closing_bracket_char("]") {}
@@ -101,7 +101,7 @@ inline progressbar::progressbar(int n, bool showbar) :
     last_perc(0),
     do_show_bar(showbar),
     update_is_called(false),
-    done_char("#"),
+    done_char("█"),
     todo_char(" "),
     opening_bracket_char("["),
     closing_bracket_char("]") {}
